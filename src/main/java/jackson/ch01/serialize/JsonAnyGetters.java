@@ -1,10 +1,10 @@
-package jackson.ch01;
+package jackson.ch01.serialize;
 
 import com.fasterxml.jackson.annotation.JsonAnyGetter;
 
 import java.util.Map;
 
-public class ExtendableBean {
+public class JsonAnyGetters {
     public String name;
     private Map<String, String> properties;
 
