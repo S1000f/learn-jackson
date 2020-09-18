@@ -1,4 +1,4 @@
-package jackson;
+package jackson.ch01.serialize;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
@@ -41,5 +41,6 @@ public class Main {
         JsonSerializeC jsonSerializeC = new JsonSerializeC("whose", date);
         String jsonSerializeResult = mapper.writeValueAsString(jsonSerializeC);
         System.out.println(jsonSerializeResult); // {"name":"whose","eventDate":"01-09-2020 12:00"}
+
     }
 }
