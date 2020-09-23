@@ -1,4 +1,4 @@
-package jackson.ch01.deserialize;
+package jackson.ch01annotations.deserialize;
 
 import com.fasterxml.jackson.annotation.JacksonInject;
 import lombok.Getter;

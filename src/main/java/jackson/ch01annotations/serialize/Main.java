@@ -1,12 +1,8 @@
-package jackson.ch01.serialize;
+package jackson.ch01annotations.serialize;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.SerializationFeature;
-import jackson.ch01.serialize.JsonRootNameC;
-import jackson.ch01.serialize.JsonSerializeC;
-import jackson.ch01.serialize.JsonValueC;
-import jackson.ch01.serialize.JsonValue_;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;

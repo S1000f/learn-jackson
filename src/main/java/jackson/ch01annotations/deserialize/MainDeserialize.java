@@ -1,4 +1,4 @@
-package jackson.ch01.deserialize;
+package jackson.ch01annotations.deserialize;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.InjectableValues;
@@ -40,6 +40,13 @@ public class MainDeserialize {
         System.out.println(jsonAnySetterC.getName());
         System.out.println(jsonAnySetterC.getProperties().get("rrre"));
 
+        /* @JsonAlias
+        * */
+        String json3 = "{\"fName\" : \"John\", \"lastName\" :\"Green\"}";
+        JsonAliasC aliasC = mapper.readerFor(JsonAliasC.class)
+                .readValue(json3);
+        System.out.println(aliasC.getFirstName());
+        System.out.println(aliasC.getLastName());
 
     }
 }

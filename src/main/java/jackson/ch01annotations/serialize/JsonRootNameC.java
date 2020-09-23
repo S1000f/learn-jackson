@@ -1,4 +1,4 @@
-package jackson.ch01.serialize;
+package jackson.ch01annotations.serialize;
 
 import com.fasterxml.jackson.annotation.JsonRootName;
 

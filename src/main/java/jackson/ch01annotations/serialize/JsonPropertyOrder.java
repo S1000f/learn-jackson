@@ -1,4 +1,4 @@
-package jackson.ch01.serialize;
+package jackson.ch01annotations.serialize;
 
 @com.fasterxml.jackson.annotation.JsonPropertyOrder({"name", "id"})
 public class JsonPropertyOrder {

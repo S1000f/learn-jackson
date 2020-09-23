@@ -1,4 +1,4 @@
-package jackson.ch01.serialize;
+package jackson.ch01annotations.serialize;
 
 public class JsonGetter {
     private int id;
